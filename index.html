@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="searchbar">
+    <p class="intro">Search for a Wikipedia article or <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">get a random page</a>
+    </p>
+    <input type="search"
+           id="query"
+           name="query"
+           placeholder="search">
+    <button class="fa fa-search"
+       type="submit"
+       id="submit"
+       name="submit"
+       title="submit search">
+    </button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

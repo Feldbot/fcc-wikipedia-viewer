@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: beige;
+  font-size: 1em;
+}
+
+/* Search form */
+#searchbar {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+input {
+  font-size: 1.4em;
+  box-sizing: border-box;
+  width: 150px;
+  padding: 2px 0px 2px 10px;
+  margin-bottom: 25px;
+  border: 2px solid lightSeaGreen;
+  border-radius: 7px;
+  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+}
+input:hover, input:focus, input:active {
+  width: 350px;
+}
+button {
+  background-color: beige;
+  outline: none;
+  border: 0px;
+}
+.fa-search {
+  font-size: 2em;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+  color: lightSeaGreen;
+}
+.fa-search:hover {
+  color: teal;
+  cursor: pointer;
+}
+
+/* Result list */
+#results {
+  top: 175px;
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+}
+.card {
+  margin: 15px 0;
+  background-color: lightcyan;
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+.card:hover {
+  background-color: azure;
+}
+h1 {
+  font-size: 1.4em;
+  font-family: sans-serif;
+  padding: 0px 20px;
+  color: teal;
+}
+.intro, .intro a {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  color: #808080;
+}
+a {
+  text-decoration: none;
+}
+.intro a {
+  font-size: 1em;
+  color: lightSeaGreen;
+}
+.intro a:hover {
+  color: teal;
+}
+p {
+  font-family: sans-serif;
+  padding: 0px 20px;
+  color: rgb(101,101,101);
+}
